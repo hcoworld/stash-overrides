@@ -1,0 +1,461 @@
+name: 'iFansClub - ADBlock'
+desc: '更新时间：2026-10-21 | 通用广告拦截，含高德地图、直播吧、微博开屏'
+
+rules:
+  - DOMAIN,bootpreload.uve.weibo.com,REJECT
+  - DOMAIN,sdkaction.biz.weibo.com,REJECT
+  - DOMAIN,sdkmonitor.biz.weibo.com,REJECT
+  - DOMAIN,adstrategy.biz.weibo.com,REJECT
+  - DOMAIN,wbapp.uve.weibo.com,REJECT
+  - DOMAIN,sdkapp.uve.weibo.com,REJECT
+  - DOMAIN,ad-cdn.qingting.fm,REJECT
+  - DOMAIN,ad-scope.com,REJECT
+  - DOMAIN,ad-scope.com.cn,REJECT
+  - DOMAIN,ad-sdk-config.youdao.com,REJECT
+  - DOMAIN,ad-splash.hktvmall.com,REJECT
+  - DOMAIN,ad.12306.cn,REJECT
+  - DOMAIN,ad.51wnl.com,REJECT
+  - DOMAIN,ad.api.3g.youku.com,REJECT
+  - DOMAIN,ad.bwton.com,REJECT
+  - DOMAIN,ad.cctv.com,REJECT
+  - DOMAIN,ad.cyapi.cn,REJECT
+  - DOMAIN,ad.doubleclick.net,REJECT
+  - DOMAIN,ad.gameley.com,REJECT
+  - DOMAIN,ad.hpplay.cn,REJECT
+  - DOMAIN,ad.iot.360.cn,REJECT
+  - DOMAIN,ad.jia.360.cn,REJECT
+  - DOMAIN,ad.life.360.cn,REJECT
+  - DOMAIN,ad.partner.gifshow.com,REJECT
+  - DOMAIN,ad.qingting.fm,REJECT
+  - DOMAIN,ad.qq.com,REJECT
+  - DOMAIN,ad.richmob.cn,REJECT
+  - DOMAIN,ad.shenshiads.com,REJECT
+  - DOMAIN,ad.shunchangzhixing.com,REJECT
+  - DOMAIN,ad.tencentmusic.com,REJECT
+  - DOMAIN,ad.toutiao.com,REJECT
+  - DOMAIN,ad.v3mh.com,REJECT
+  - DOMAIN,ad.weibo.com,REJECT
+  - DOMAIN,ad.winrar.com.cn,REJECT
+  - DOMAIN,ad.xunkids.com,REJECT
+  - DOMAIN,ad.zijieapi.com,REJECT
+  - DOMAIN,adapi.izuiyou.com,REJECT
+  - DOMAIN,adapi.yynetwk.com,REJECT
+  - DOMAIN,adcdn.hpplay.cn,REJECT
+  - DOMAIN,adcdn.tencentmusic.com,REJECT
+  - DOMAIN,adclick.g.doubleclick.net,REJECT
+  - DOMAIN,adclick.tencentmusic.com,REJECT
+  - DOMAIN,adcolony.com,REJECT
+  - DOMAIN,adexp.chinaliftoff.io,REJECT
+  - DOMAIN,adexp.liftoff.io,REJECT
+  - DOMAIN,adexpo.tencentmusic.com,REJECT
+  - DOMAIN,adimg.uve.weibo.com,REJECT
+  - DOMAIN,adks.hpplay.cn,REJECT
+  - DOMAIN,adlink-api.huan.tv,REJECT
+  - DOMAIN,ads-api-o.api.leiniao.com,REJECT
+  - DOMAIN,ads-api.tiktok.com,REJECT
+  - DOMAIN,ads-api.twitter.com,REJECT
+  - DOMAIN,ads-img-al.xhscdn.com,REJECT
+  - DOMAIN,ads-img-qc.xhscdn.com,REJECT
+  - DOMAIN,ads-jp.tiktok.com,REJECT
+  - DOMAIN,ads-marketing-vivofs.vivo.com.cn,REJECT
+  - DOMAIN,ads-sdk-api.ranfenghd.com,REJECT
+  - DOMAIN,ads-sg.tiktok.com,REJECT
+  - DOMAIN,ads-video-al.xhscdn.com,REJECT
+  - DOMAIN,ads-video-qc.xhscdn.com,REJECT
+  - DOMAIN,ads.auctions.yahoo.com,REJECT
+  - DOMAIN,ads.google.cn,REJECT
+  - DOMAIN,ads.huan.tv,REJECT
+  - DOMAIN,ads.icloseli.cn,REJECT
+  - DOMAIN,ads.inmobi.com,REJECT
+  - DOMAIN,ads.linkedin.com,REJECT
+  - DOMAIN,ads.pinterest.com,REJECT
+  - DOMAIN,ads.pubmatic.com,REJECT
+  - DOMAIN,ads.raidrive.com,REJECT
+  - DOMAIN,ads.servebom.com,REJECT
+  - DOMAIN,ads.service.kugou.com,REJECT
+  - DOMAIN,ads.tiktok.com,REJECT
+  - DOMAIN,ads.v3mh.com,REJECT
+  - DOMAIN,ads.zhinengxiyifang.cn,REJECT
+  - DOMAIN,adsense.google.cn,REJECT
+  - DOMAIN,adserver.unityads.unity3d.com,REJECT
+  - DOMAIN,adservice.google.com,REJECT
+  - DOMAIN,adservice.sigmob.cn,REJECT
+  - DOMAIN,adserviceretry.kugou.com,REJECT
+  - DOMAIN,adslvfile.qq.com,REJECT
+  - DOMAIN,adsmart.konka.com,REJECT
+  - DOMAIN,adsmind.gdtimg.com,REJECT
+  - DOMAIN,adsmind.ugdtimg.com,REJECT
+  - DOMAIN,adsp.xunlei.com,REJECT
+  - DOMAIN,adstore-1252524079.file.myqcloud.com,REJECT
+  - DOMAIN,adstore-index-1252524079.file.myqcloud.com,REJECT
+  - DOMAIN,adtech.yahooinc.com,REJECT
+  - DOMAIN,adui.tg.meitu.com,REJECT
+  - DOMAIN,adv-api.shenshiads.com,REJECT
+  - DOMAIN,advice-ads.s3.amazonaws.com,REJECT
+  - DOMAIN,adview.cn,REJECT
+  - DOMAIN,adx-ad.smart-tv.cn,REJECT
+  - DOMAIN,adx-api.jinmo.tech,REJECT
+  - DOMAIN,adx-bj-req.anythinktech.com,REJECT
+  - DOMAIN,adx-bj.anythinktech.com,REJECT
+  - DOMAIN,adx-open-service.youku.com,REJECT
+  - DOMAIN,adx-os.anythinktech.com,REJECT
+  - DOMAIN,adx-saas.advlion.com,REJECT
+  - DOMAIN,adx-strategy-api-cn.statisticslinks.com,REJECT
+  - DOMAIN,adx.ads.heytapmobi.com,REJECT
+  - DOMAIN,adx.ads.oppomobile.com,REJECT
+  - DOMAIN,adx.appsdk.com.cn,REJECT
+  - DOMAIN,adx.sogaha.cn,REJECT
+  - DOMAIN,adx.tuia.cn,REJECT
+  - DOMAIN,adxserver.ad.cmvideo.cn,REJECT
+  - DOMAIN,afs.googlesyndication.com,REJECT
+  - DOMAIN,ali-ad.a.yximgs.com,REJECT
+  - DOMAIN,api-access.pangolin-sdk-toutiao-b.com,REJECT
+  - DOMAIN,api-access.pangolin-sdk-toutiao2.com,REJECT
+  - DOMAIN,api-access.pangolin-sdk-toutiao3.com,REJECT
+  - DOMAIN,api-access.pangolin-sdk-toutiao4.com,REJECT
+  - DOMAIN,api-access.pangolin-sdk-toutiao5.com,REJECT
+  - DOMAIN,api-ad-data.kajicam.com,REJECT
+  - DOMAIN,api-ad-product.huxiu.com,REJECT
+  - DOMAIN,api-ad.kajicam.com,REJECT
+  - DOMAIN,api-htp.beizi.biz,REJECT
+  - DOMAIN,api.ad.xiaomi.com,REJECT
+  - DOMAIN,api.anythinktech.com,REJECT
+  - DOMAIN,api.aqyad.com,REJECT
+  - DOMAIN,api.hzsanjiaomao.com,REJECT
+  - DOMAIN,api.ssp.xcultur.com,REJECT
+  - DOMAIN,b1-data.ads.heytapmobi.com,REJECT
+  - DOMAIN,bdapi-ads.realmemobile.com,REJECT
+  - DOMAIN,bdapi-in-ads.realmemobile.com,REJECT
+  - DOMAIN,bdapi.ads.oppomobile.com,REJECT
+  - DOMAIN,beizi.biz,REJECT
+  - DOMAIN,c2.gdt.qq.com,REJECT
+  - DOMAIN,canvas-cdn.gdt.qq.com,REJECT
+  - DOMAIN,cdn-ad.wtzw.com,REJECT
+  - DOMAIN,cdn-ads.oss-cn-shanghai.aliyuncs.com,REJECT
+  - DOMAIN,cdn-f.adsmoloco.com,REJECT
+  - DOMAIN,cdn.chinaliftoff-creatives.io,REJECT
+  - DOMAIN,cdn.iads.unitychina.cn,REJECT
+  - DOMAIN,cdn.liftoff-creatives.io,REJECT
+  - DOMAIN,ck.ads.oppomobile.com,REJECT
+  - DOMAIN,click.chinaliftoff.io,REJECT
+  - DOMAIN,click.liftoff.io,REJECT
+  - DOMAIN,click4.chinaliftoff.io,REJECT
+  - DOMAIN,cn-api.anythinktech.com,REJECT
+  - DOMAIN,config.inmobi.com,REJECT
+  - DOMAIN,config.unityads.unity3d.com,REJECT
+  - DOMAIN,cpc-service-square.aiclk.com,REJECT
+  - DOMAIN,csjplatform.com,REJECT
+  - DOMAIN,d.applovin.com,REJECT
+  - DOMAIN,d.applvn.com,REJECT
+  - DOMAIN,da.anythinktech.com,REJECT
+  - DOMAIN,data.ads.oppomobile.com,REJECT
+  - DOMAIN,dc.sigmob.cn,REJECT
+  - DOMAIN,doubleclick-cn.net,REJECT
+  - DOMAIN,e.ad.xiaomi.com,REJECT
+  - DOMAIN,edge.ads.twitch.tv,REJECT
+  - DOMAIN,et-eus.w.inmobi.com,REJECT
+  - DOMAIN,g-adnet.hiaiabc.com,REJECT
+  - DOMAIN,globalapi.ad.xiaomi.com,REJECT
+  - DOMAIN,googleads.g.doubleclick-cn.net,REJECT
+  - DOMAIN,googleads.g.doubleclick.net,REJECT
+  - DOMAIN,googleadservices-cn.com,REJECT
+  - DOMAIN,googleadservices.com,REJECT
+  - DOMAIN,gromore.pangolin-sdk-toutiao.com,REJECT
+  - DOMAIN,hw-ot-ad.a.yximgs.com,REJECT
+  - DOMAIN,i.l-new.inmobicdn.net,REJECT
+  - DOMAIN,i.l.inmobicdn.net,REJECT
+  - DOMAIN,iad.apple.com,REJECT
+  - DOMAIN,iad.g.163.com,REJECT
+  - DOMAIN,iadmusicmat.music.126.net,REJECT
+  - DOMAIN,iadsdk.apple.com,REJECT
+  - DOMAIN,ii.gdt.qq.com,REJECT
+  - DOMAIN,image-ad.sm.cn,REJECT
+  - DOMAIN,impression-asia.chinaliftoff.io,REJECT
+  - DOMAIN,impression-asia.liftoff.io,REJECT
+  - DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com,REJECT
+  - DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com,REJECT
+  - DOMAIN,litchiads.com,REJECT
+  - DOMAIN,m-adnet.hiaiabc.com,REJECT
+  - DOMAIN,m.ad.zhangyue.com,REJECT
+  - DOMAIN,m.shenshiads.com,REJECT
+  - DOMAIN,medproad.com,REJECT
+  - DOMAIN,moatads.com,REJECT
+  - DOMAIN,mores.toponad.com,REJECT
+  - DOMAIN,ms.applovin.com,REJECT
+  - DOMAIN,ms.applvn.com,REJECT
+  - DOMAIN,ms4.applovin.com,REJECT
+  - DOMAIN,ms4.applvn.com,REJECT
+  - DOMAIN,o-sdk.mediation.unity3d.com,REJECT
+  - DOMAIN,open-set-api.shenshiads.com,REJECT
+  - DOMAIN,openadapi.fancydsp.com,REJECT
+  - DOMAIN,p1-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p2-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p4-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p5-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p6-be-pack-sign.pglstatp-toutiao.com,REJECT
+  - DOMAIN,p66-ad.adkwai.com,REJECT
+  - DOMAIN,pagead2.googleadservices.com,REJECT
+  - DOMAIN,pagead2.googlesyndication.com,REJECT
+  - DOMAIN,pangolin-sdk-toutiao-b.com,REJECT
+  - DOMAIN,pgdt.gtimg.cn,REJECT
+  - DOMAIN,pgdt.ugdtimg.com,REJECT
+  - DOMAIN,pglstatp-toutiao.com,REJECT
+  - DOMAIN,pixon.ads-pixiv.net,REJECT
+  - DOMAIN,public.gdtimg.com,REJECT
+  - DOMAIN,q.i.gdt.qq.com,REJECT
+  - DOMAIN,qzs.gdtimg.com,REJECT
+  - DOMAIN,res1.applovin.com,REJECT
+  - DOMAIN,review.gdtimg.com,REJECT
+  - DOMAIN,rpt.gdt.qq.com,REJECT
+  - DOMAIN,rt.applovin.com,REJECT
+  - DOMAIN,rt.applvn.com,REJECT
+  - DOMAIN,s.amazon-adsystem.com,REJECT
+  - DOMAIN,s8t.teads.tv,REJECT
+  - DOMAIN,samsungads.com,REJECT
+  - DOMAIN,sdk.ad.smaato.net,REJECT
+  - DOMAIN,sdk.adx.adwangmai.com,REJECT
+  - DOMAIN,sdk.aqyad.com,REJECT
+  - DOMAIN,sdk.beizi.biz,REJECT
+  - DOMAIN,sdk.cferw.com,REJECT
+  - DOMAIN,sdk.hzsanjiaomao.com,REJECT
+  - DOMAIN,sdk.markmedia.com.cn,REJECT
+  - DOMAIN,sdk.mobads.adwangmai.com,REJECT
+  - DOMAIN,sdkconfig.ad.intl.xiaomi.com,REJECT
+  - DOMAIN,sdkconfig.ad.xiaomi.com,REJECT
+  - DOMAIN,securepubads.g.doubleclick.net,REJECT
+  - DOMAIN,sf16-static.i18n-pglstatp.com,REJECT
+  - DOMAIN,sf3-fe-tos.pglstatp-toutiao.com,REJECT
+  - DOMAIN,sigmob.com,REJECT
+  - DOMAIN,sms.ads.oppomobile.com,REJECT
+  - DOMAIN,static.ads-twitter.com,REJECT
+  - DOMAIN,stg-data.ads.heytapmobi.com,REJECT
+  - DOMAIN,supply.inmobicdn.net,REJECT
+  - DOMAIN,t-adx.52qumao.com,REJECT
+  - DOMAIN,t.applovin.com,REJECT
+  - DOMAIN,t.teads.tv,REJECT
+  - DOMAIN,t1.teads.tv,REJECT
+  - DOMAIN,target.ads.jihuoniao.com,REJECT
+  - DOMAIN,tk.anythinktech.com,REJECT
+  - DOMAIN,tpc.googlesyndication-cn.com,REJECT
+  - DOMAIN,tpc.googlesyndication.com,REJECT
+  - DOMAIN,tr-asia.adsmoloco.com,REJECT
+  - DOMAIN,tx-ad.a.yximgs.com,REJECT
+  - DOMAIN,uapi.ads.heytapmobi.com,REJECT
+  - DOMAIN,v.adx.hubcloud.com.cn,REJECT
+  - DOMAIN,v1-ad.video.yximgs.com,REJECT
+  - DOMAIN,v2-ad.video.yximgs.com,REJECT
+  - DOMAIN,v2.gdt.qq.com,REJECT
+  - DOMAIN,v2mi.gdt.qq.com,REJECT
+  - DOMAIN,v3-ad.video.yximgs.com,REJECT
+  - DOMAIN,v3.gdt.qq.com,REJECT
+  - DOMAIN,video-ad.sm.cn,REJECT
+  - DOMAIN,vungle.com,REJECT
+  - DOMAIN,webview.unityads.unity3d.com,REJECT
+  - DOMAIN,widgets.outbrain.com,REJECT
+  - DOMAIN,wildcard.moatads.com.edgekey.net,REJECT
+  - DOMAIN,win.gdt.qq.com,REJECT
+  - DOMAIN,wv.inner-active.mobi,REJECT
+  - DOMAIN,wxsnsad.tc.qq.com,REJECT
+  - DOMAIN,xc.gdt.qq.com,REJECT
+  - DOMAIN,yk-ssp-ad.cp31.ott.cibntv.net,REJECT
+  - DOMAIN,yk-ssp.ad.youku.com,REJECT
+  - DOMAIN,zeus.ad.xiaomi.com,REJECT
+  - DOMAIN,zjres-ad.kajicam.com,REJECT
+
+http:
+  mitm:
+    - "*.amap.com"
+    - "*.meituan.net"
+    - "*.xiaohongshu.com"
+    - "*.ximalaya.com"
+    - "a.qiumibao.com"
+    - "acs.m.taobao.com"
+    - "adx-cn.anythinktech.com"
+    - "adx.anythinktech.com"
+    - "api-access.pangolin-sdk-toutiao.com"
+    - "api-access.pangolin-sdk-toutiao1.com"
+    - "api-new.app.acfun.cn"
+    - "api.dangdang.com"
+    - "api.douban.com"
+    - "api.m.jd.com"
+    - "api.pinduoduo.com"
+    - "api.smart.jd.com"
+    - "api.weibo.cn"
+    - "api.weibo.com"
+    - "api.yangkeduo.com"
+    - "api.zhihu.com"
+    - "app-gw.csdn.net"
+    - "app.58.com"
+    - "appwk.baidu.com"
+    - "bdsp-x.jd.com"
+    - "boot.biz.weibo.com"
+    - "c.tieba.baidu.com"
+    - "ccsp-egmas.sf-express.com"
+    - "client.qunar.com"
+    - "cn-acs.m.cainiao.com"
+    - "dsp-x.jd.com"
+    - "dynamicad.kfc.com.cn"
+    - "e.dangdang.com"
+    - "elemecdn.com"
+    - "guide-acs.m.taobao.com"
+    - "hc-ssp.sm.cn"
+    - "homefront.qunar.com"
+    - "img.meituan.net"
+    - "interface.music.163.com"
+    - "interface3.music.163.com"
+    - "jdread-api.jd.com"
+    - "lop-proxy.jd.com"
+    - "m.ctrip.com"
+    - "ma-adx.ctrip.com"
+    - "magev6.if.qidian.com"
+    - "manga.bilibili.com"
+    - "mapi.dangdang.com"
+    - "mapi.weibo.cn"
+    - "mapi.weibo.com"
+    - "mi.gdt.qq.com"
+    - "mime.baidu.com"
+    - "mobads.baidu.com"
+    - "newclient.map.baidu.com"
+    - "open.e.kuaishou.com"
+    - "pan.baidu.com"
+    - "peisongapi.meituan.com"
+    - "r.inews.qq.com"
+    - "res.kfc.com.cn"
+    - "res.xiaojukeji.com"
+    - "router-app-api.jdcloud.com"
+    - "rtbapi.douyucdn.cn"
+    - "sdk.1rtb.net"
+    - "shopic.sf-express.com"
+    - "tiebac.baidu.com"
+    - "ucmp.sf-express.com"
+  url-rewrite:
+    - '^https?://a\.qiumibao\.com/activities/config\.php(?:\?.*)?$ - reject'
+    - '^https?://a\.qiumibao\.com/ios/config/\?version_code= - reject-200'
+    - '^http://(?:118\.178\.168\.156|47\.111\.8\.123):8091/allOne\.php\?ad_name=[^&#]+(?:&|$) - reject'
+    - '^https?://amap-aos-info-nogw\.amap\.com/ws/aos/alimama(?:[/?#]|$) - reject-200'
+    - '^https?://(?:[A-Za-z0-9-]+\.)+amap\.com/ws/aos/alimama/splash_screen(?:[/?#]|$) - reject-200'
+    - '^https?://(?:[A-Za-z0-9-]+\.)+amap\.com/ws/asa/ads_attribution(?:[/?#]|$) - reject'
+    - '^https?://optimus-ads\.amap\.com/uploadimg/[A-Za-z0-9_-]+\.gif(?:[?#]|$) - reject-img'
+    - '^https?://(?:[A-Za-z0-9-]+\.)+amap\.com/v\d+/ai_rec(?:[/?#]|$) - reject-dict'
+    - '^https?://(?:[A-Za-z0-9-]+\.)+amap\.com/ws/shield/scene/recommend(?:[/?#]|$) - reject-dict'
+    - '^https?://sdk\.1rtb\.net/sdk/req_ad(?:\?|$) - reject-200'
+    - '^https?://mobads\.baidu\.com/cpro/ui/mads\.php - reject-200'
+    - '^https://mi\.gdt\.qq\.com/gdt_mview\.fcg - reject-200'
+    - '^https://open\.e\.kuaishou\.com/rest/e/v3/open/univ - reject-200'
+    - '^https?://api-access\.pangolin-sdk-toutiao(?:1)?\.com/api/ad/ - reject-200'
+    - '^https?://adx(?:-cn)?\.anythinktech\.com/bid - reject-200'
+    - '^https?://hc-ssp\.sm\.cn(?:/|$) - reject-200'
+    - '^https?://app\.58\.com/api/home/(?:advertising|appadv)(?:/|\?|$) - reject-200'
+    - '^https?://app\.58\.com/api/home/invite/popupAdv(?:/|\?|$) - reject-200'
+    - '^https?://api-new\.app\.acfun\.cn/rest/app/flash/screen/ - reject-200'
+    - '^https?://acs\.m\.taobao\.com/gw/mtop\.alibaba\.advertisementservice\.getadv/ - reject-200'
+    - '^https?://acs\.m\.taobao\.com/gw/mtop\.alibaba\.cbu\.app\.homepage\.startup(?:/|\?|$) - reject-200'
+    - '^https?://cn-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(?:show|mshow)\.cn/ - reject-200'
+    - '^https?://acs\.m\.taobao\.com/gw/mtop\.damai\.wireless\.home\.welcome(?:/|\?|$) - reject-200'
+    - '^https?://acs\.m\.taobao\.com/gw/mtop\.damai\.mec\.popup\.get(?:/|\?|$) - reject-200'
+    - '^https?://acs\.m\.taobao\.com/gw/mtop\.fliggy\.crm\.screen\.(?:allresource|availablesplashstrategies)(?:/|\?|$) - reject-200'
+    - '^https?://guide-acs\.m\.taobao\.com/gw/mtop\.taobao\.wireless\.home\.splash\.awesome\.get(?:/|\?|$) - reject-200'
+    - '^https?://tiebac\.baidu\.com/c/f/ad/getFeedAd(?:\?|$) - reject-dict'
+    - '^https?://mime\.baidu\.com/v\d+/IosStart/getStartInfo(?:\?|$) - reject-dict'
+    - '^https?://mime\.baidu\.com/v\d+/activity/advertisement(?:\?|$) - reject-dict'
+    - '^https?://appwk\.baidu\.com/xpage/interface/wknaad(?:\?|$) - reject-dict'
+    - '^https?://pan\.baidu\.com/rest/2\.0/pcs/ad(?:\?|$) - reject-dict'
+    - '^https?://pan\.baidu\.com/act/api/activityentry(?:\?|$) - reject-dict'
+    - '^https?://newclient\.map\.baidu\.com/client/crossmarketing(?:\?|$) - reject-dict'
+    - '^https?://manga\.bilibili\.com/twirp/comic\.v\d+\.Comic/Flash(?:\?|$) - reject-dict'
+    - '^https?://app-gw\.csdn\.net/silkroad-api/api/v\d+/assemble/list/pub/channel/app_open_screen_ad(?:\?|$) - reject-dict'
+    - '^https?://api\.dangdang\.com/mapi\d+/mobile/init(?:\?|$) - reject-dict'
+    - '^https?://mapi\.dangdang\.com/index\.php\?action=init(?:&|$) - reject-dict'
+    - '^https?://e\.dangdang\.com/.+getDeviceStartPage - reject-dict'
+    - '^https?://api\.douban\.com/v2/app_ads/splash(?:\?|$) - reject-dict'
+    - '^https?://api\.douban\.com/.+/common_ads\? - reject-dict'
+    - '^https?://rtbapi\.douyucdn\.cn/japi/sign/app/getinfo(?:\?|$) - reject-dict'
+    - '^https?://res\.xiaojukeji\.com/resapi/activity/(?:mget|getRuled|getPreload|getPasMultiNotices)(?:\?|$) - reject-dict'
+    - '^https?://elemecdn\.com/.+/sitemap(?:\?|$) - reject-200'
+    - '^https?://jdread-api\.jd\.com/jdread/api/(?:channel/module/opens|popup)(?:\?|$) - reject-dict'
+    - '^https?://api\.m\.jd\.com/client\.action\?functionId=(?:start|queryMaterialAdverts|home_launchConfig)(?:&|$) - reject-dict'
+    - '^https?://(?:bdsp-x|dsp-x)\.jd\.com/adx/ - reject-200'
+    - '^https?://router-app-api\.jdcloud\.com/v\d+/board/routerAppSplash(?:\?|$) - reject-dict'
+    - '^https?://lop-proxy\.jd\.com/queryAppHomePageMarketingRecommendRuleConfigInfo(?:\?|$) - reject-dict'
+    - '^https?://api\.smart\.jd\.com/c/service/getLoadingLinks(?:\?|$) - reject-dict'
+    - '^https?://res\.kfc\.com\.cn/advertisement/ - reject-200'
+    - '^https?://dynamicad\.kfc\.com\.cn/api/app5/homepage/ai/popup(?:\?|$) - reject-dict'
+    - '^https?://peisongapi\.meituan\.com/client/getInitiateImage(?:\?|$) - reject-dict'
+    - '^https?://img\.meituan\.net/(?:adunion|display|midas)/\w+\.(?:gif|jpg|jpg\.webp)$ - reject-img'
+    - '^https?://(?:s3plus|flowplus)\.meituan\.net/v\d+/\w+/linglong/\w+\.(?:gif|jpg|mp4) - reject-200'
+    - '^https?://p\d+\.meituan\.net/(?:bizad|wmbanner)/\w+\.jpg - reject-img'
+    - '^https?://interface(?:3)?\.music\.163\.com/e?api/ad/(?:loading/(?:get|current)|get)(?:\?|$) - reject-dict'
+    - '^https?://interface(?:3)?\.music\.163\.com/e?api/link/(?:position|scene)/show/resource(?:\?|$) - reject-dict'
+    - '^https?://api\.(?:pinduoduo|yangkeduo)\.com/api/cappuccino/splash(?:\?|$) - reject-dict'
+    - '^https?://ccsp-egmas\.sf-express\.com/cx-app-base/base/app/ad/queryAdImages(?:\?|$) - reject-dict'
+    - '^https?://shopic\.sf-express\.com/crm/mobile/common/flashscreen(?:\?|$) - reject-dict'
+    - '^https?://ucmp\.sf-express\.com/proxy/operation-platform/info-flow-adver/query(?:\?|$) - reject-dict'
+    - '^https?://ma-adx\.ctrip\.com/_ma\.gif(?:\?|$) - reject-img'
+    - '^https?://m\.ctrip\.com/restapi/soa2/\d+/scjson/tripAds(?:\?|$) - reject-dict'
+    - '^https?://homefront\.qunar\.com/front/splash/ad(?:\?|$) - reject-dict'
+    - '^https?://client\.qunar\.com/pitcher-proxy\?qrt=p_splashAd(?:&|$) - reject-dict'
+    - '^https?://r\.inews\.qq\.com/(?:adsBlacklist|getFullScreenPic|getBannerAds|getSplash)(?:\?|$) - reject-dict'
+    - '^https?://api\.weibo\.cn/\d+/ad/preload(?:\?|$) - reject-dict'
+    - '^https?://boot\.biz\.weibo\.com/v\d+/ad/(?:preload|realtime)(?:\?|$) - reject-dict'
+    - '^https?://m?api\.weibo\.(?:cn|com)/\d+/ad/weibointl\? - reject-dict'
+    - '^https?://[a-z]+\.xiaohongshu\.com/api/sns/v\d+/system_service/splash(?:\?|$) - reject-dict'
+    - '^https?://[a-z]+\.xiaohongshu\.com/api/sns/v\d+/(?:tag/)?ads(?:\?|$) - reject-dict'
+    - '^https?://[a-z]+\.xiaohongshu\.com/api/sns/v\d+/search/notes/recommend_info\? - reject-dict'
+    - '^https?://(?:adse\.wsa|adse|adbehavior|xdcs-collector)\.ximalaya\.com/ - reject-200'
+    - '^https?://[^/]+\.ximalaya\.com/api/v\d+/adRealTime(?:\?|$) - reject-dict'
+    - '^https?://[^/]+\.ximalaya\.com/ting/(?:loading|feed|home)(?:\?|$) - reject-dict'
+    - '^https?://api\.zhihu\.com/commercial_api(?:/|\?|$) - reject-dict'
+    - '^https?://api\.zhihu\.com/bazaar/float_window(?:\?|$) - reject-dict'
+    - '^https?://api\.zhihu\.com/api/v4/ecom_data/config(?:\?|$) - reject-dict'
+  script:
+    - match: '^https?://(?:[A-Za-z0-9-]+\.)+amap\.com/ws/(?:faas/amap-navigation/main-page|message/notice/list|msgbox/pull|promotion-web/resource|shield/(?:dsp/profile/index/nodefaas[^/?#]*|frogserver/aocs/updatable|search/(?:nearbyrec_smart|new_hotword))|valueadded/alimama/splash_screen)(?:[/?#]|$)'
+      name: amap_response
+      type: response
+      require-body: true
+      max-size: 0
+      timeout: 30
+    - match: '^https://newclient\.map\.baidu\.com/client/phpui2/\?qt=ads'
+      name: baidu_map
+      type: response
+      require-body: true
+      binary-mode: true
+      max-size: 0
+      timeout: 30
+    - match: '^https://magev6\.if\.qidian\.com/argus/api/(?:v4/client/getsplashscreen|v2/(?:deeplink/geturl|dailyrecommend/getdailyrecommend)|v1/(?:client/getconf$|bookshelf/getHoverAdv|adv/getadvlistbatch\?positions=iOS_tab))'
+      name: qidian
+      type: response
+      require-body: true
+      max-size: 0
+      timeout: 30
+    - match: '^https?://(?:tiebac|c\.tieba)\.baidu\.com/(?:c/(?:s/sync|f/(?:ad/getSplashAd|frs/(?:page|threadlist|generalTabList)|pb/(?:pic)?page|excellent/personalized))$|tiebaads/commonbatch\?)'
+      name: tieba_json
+      type: response
+      require-body: true
+      max-size: 0
+      timeout: 30
+    - match: '^https?://(?:tiebac|c\.tieba)\.baidu\.com/c/(?:b/ad/adBid|f/(?:frs/(?:page|threadlist|generalTabList)|ad/getFeedAd|pb/page|excellent/personalized))\?cmd'
+      name: tieba_proto
+      type: response
+      require-body: true
+      binary-mode: true
+      max-size: -1
+      timeout: 30
+      argument: 'per_filter_video_thread=0'
+
+script-providers:
+  amap_response:
+    url: https://raw.githubusercontent.com/akiralereal/shadowrocket-toolkit/84477215bc16c39478203688fac8e2a943364c57/scripts/amap.js
+    interval: 86400
+  baidu_map:
+    url: https://raw.githubusercontent.com/akiralereal/shadowrocket-toolkit/84477215bc16c39478203688fac8e2a943364c57/scripts/baidu-map.js
+    interval: 86400
+  qidian:
+    url: https://raw.githubusercontent.com/akiralereal/shadowrocket-toolkit/84477215bc16c39478203688fac8e2a943364c57/scripts/qidian.js
+    interval: 86400
+  tieba_json:
+    url: https://raw.githubusercontent.com/akiralereal/shadowrocket-toolkit/84477215bc16c39478203688fac8e2a943364c57/scripts/tieba-json.js
+    interval: 86400
+  tieba_proto:
+    url: https://raw.githubusercontent.com/akiralereal/shadowrocket-toolkit/84477215bc16c39478203688fac8e2a943364c57/scripts/tieba-proto.js
+    interval: 86400
